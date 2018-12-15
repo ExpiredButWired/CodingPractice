@@ -2,7 +2,7 @@
 A place to learn and play
 
 
-
+Installing Pygame on Mac:
 https://nostarch.com/download/Teach_Your_Kids_to_Code_InstallingPygame_MacLinux.pdf
 
 
