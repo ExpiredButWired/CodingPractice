@@ -12,12 +12,12 @@ maxValue = 20
 myRandomNumber = random.randint(minValue,maxValue) #create a random number between 1 and 20, and store it in the variable myRandomNumber
 x = 0
 while x < 5: #creating a loop to repeat the process until x == 5
-	
+
 	numberguess = input("\n You've guessed " + str(x) + " times. \n Try to guess my number: ") #right now, we receive the input as a string.
 	pygame.time.wait(1000)
-	
+
 	print("\n You guessed " + numberguess + ', right?' ) #this allows us to concatenate these 3 strings together.
-	
+
 	pygame.time.wait(1000)
 	if int(numberguess) == myRandomNumber:
 		print("\n You guessed the correct number! Good Job!")
